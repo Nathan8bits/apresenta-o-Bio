@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #imgCapa {
+    opacity: 0.7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #capa {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: color;
+    position: relative;
+  }
+  
+  #intro {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    font-size: 26px;
+    color: aliceblue;
+  }
+  
+  #titulo-intro {
+    margin-bottom: 30px;
+  }
+  
+  
+  .sessao {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .sessaoResumo {
+    overflow: auto;
+    overflow-x: hidden;
+    text-align: left !important;
+    position: absolute;
+    left: 10%;
+    height: 80%;
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 5px;
+    opacity: 0.0;
+    transition: 1500ms;
+  }
+  
+  .sessaoTitulo {
+    margin-bottom: 20px;
+  }
+  
+  .sessaoResumo:hover {
+    opacity: 1;
+  }
+  
+  .sessaoCenter {
+    margin: auto;
+    left: 20%;
+    width: 60%;
+    overflow: auto;
+  }
+  
+  #imgLixo {
+    width: 50%;
+    height: 50%;
+    top: 10%;
+    left: 4%;
+    position: absolute;
+    border-radius: 5px !important;
+    
+    
+  }
+  
+  #resumoLixo {
+    right: 4%;
+    left: 58%;
+    bottom: 0px !important;
+    top: 10%;
+    height: 85%;
+    width: 38%;
+    opacity: 1;
+  }
+  
+  #descricaoImgLixo {
+    position: absolute;
+    width: 50%;
+    height: 35%;
+    top: 60%;
+    left: 4%;
+    padding: 5px;
+    opacity: 1;
+    font-size: 26px;
+    overflow: auto;
+  }
+  
+  .semHover {
+    opacity: 1;
+  }
+  
+  .comFundo {
+    background-color: aliceblue;
+    color: black !important;
+  }
+  
+  .fundoPreto {
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  .textMark {
+    background-color: rgb(172, 226, 185);
+    border-radius: 10px;
+  }
+  
+  .posicao {
+    position: absolute !important;
+    top: 25%;
+    height: 60vh;
+  }
+  
+  .metade {
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  .fundoVermelho {
+    background-color: rgb(211, 0, 0);
+  }
+  
+  .sessaoNoticias {
+    padding-right: 5%;
+    width: 100%;
+  }
+  
+  .noticias {
+    
+    border-radius: 5px !important;
+    margin-left: 5%;
+    font-size: 22px;
+    display: inline-block !important;
+    justify-content: space-between;
+  }
